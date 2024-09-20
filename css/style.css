@@ -319,14 +319,11 @@ body{
     margin: 0 0 30px;
 }
 
-/* icons */
-.our-team-card-icons{
-    position: absolute;
-    top: 360px;
-    left: 44px;
-}
+
 .our-team-icon-list{
     display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 .our-team-icon-list a{
     line-height: 10px;
@@ -369,16 +366,14 @@ body{
 
 .regular-customers-list{
     display: flex;
-    position: absolute;
-    top: 186px;
-    left: 32px;
     gap: 30px;
 }
 .regular-customers-list a{
     display: flex;
-    padding: 16px 32px;
+    padding: 16px 0;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    justify-content: center;
 }
 .regular-customers-list a:hover{
     fill: #2196F3;
@@ -394,16 +389,21 @@ body{
     height: 60px;
     fill: #AFB1B8;
 }
-.regular-customers-icons{
-    padding: 0 0 94px;
+.regular-customers-list li{
+    flex: 1;
 }
 
 
 /* footer */
-
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    gap: 156px;
+}
 .footer {
     padding: 60px 0;
-    height: 252px;
     background-color: #2F303A;
     position: relative;
 }
@@ -432,25 +432,20 @@ body{
 }
 
 .icons{
-    position: absolute;
-    top: 72px;
-    left: 340px;
-    bottom: 100px;
+    line-height: 1;
+    padding: 12px 0 0;
 }
 .icon-title{
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.42px;
     color: #FFF;
+    margin-bottom: 32px;
 }
 
 .icon-list{
     display: flex;
-    position: absolute;
-    top: 32px;
-    left: 0;
     gap: 10px;
-    padding-bottom: 112px;
 }
 .icon-list a{
     line-height: 10px;
